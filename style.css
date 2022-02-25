@@ -1,3 +1,133 @@
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    --grey: #757373;
+}
+
+
+body {
+    width: 100vw;
+
+}
+
+
+/* body * {
+    border: 1px dashed turquoise;
+
+} */
+
+.header {
+ 
+    height: 80px;
+    box-shadow: 0 0.125rem 0.625rem 0 rgb(0 0 0 / 10%);
+    display: grid;
+    align-items: center;
+}
+
+.center-wrap {
+    display: grid;
+    margin: 0px auto 0px auto;
+    width: 1100px;
+    grid-template-columns: auto 1fr 200px;
+    align-items: center;
+}
+
+
+.nav_regular{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.logo {
+    width: 150px;
+    margin-right: 50px;
+    display: grid;
+    align-items: center;
+
+}
+
+.list * {
+    list-style: none;
+}
+
+.header_list li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.header_right {
+    display: grid;
+    display: block;
+}
+
+.banner {
+    height: 170px;
+    display: grid;
+    place-items:  center;
+}
+
+h1 {
+    font-size: 46px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.filter_label_text {
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+li {
+    list-style: none;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: auto 255px 1fr auto;
+}
+
+.filter {
+    border: 1px solid #A4CCC6;
+}
+
+.filter_head {
+    height: 56px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 10px;
+    background-color: #A4CCC6
+}
+
+.filter li {
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 10px;
+    align-items: center;
+}
+
+.space_below {
+    margin-bottom: 30px;
+}
+
+
+.hover:hover {
+    color: #A4CCC6;
+    transition: 0.3s;
 }
